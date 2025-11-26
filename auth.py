@@ -11,7 +11,7 @@ def hash_password(plain_text_password):
     hashed = bcrypt.hashpw(pw_bytes, salt)
     return hashed.decode("utf-8")
 
-new_function = 1
+
 
 #VERIFY PASSWORD
 def verify_password(plain_text_password, hashed_password):
