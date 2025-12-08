@@ -1,4 +1,6 @@
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 *.db
+*.db-journal
+.DS_Store
+Thumbs.db
