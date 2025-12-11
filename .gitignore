@@ -1,6 +1,6 @@
-__pycache__/
-*.py[cod]
-*.db
-*.db-journal
-.DS_Store
-Thumbs.db
+echo # Python > .gitignore
+echo __pycache__/ >> .gitignore
+echo *.pyc >> .gitignore
+echo venv/ >> .gitignore
+echo .streamlit/secrets.toml >> .gitignore
+echo .env >> .gitignore
